@@ -1,0 +1,15 @@
+.list_items {
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item {
+
+    margin: 10px 30px;
+    color: white;
+}
+
+.container {
+}

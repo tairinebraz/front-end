@@ -1,0 +1,11 @@
+.row {
+    height: -webkit-fill-available;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.jumbotron {
+    margin-top: 2rem;
+}

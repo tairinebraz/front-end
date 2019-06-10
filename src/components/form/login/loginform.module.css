@@ -1,0 +1,24 @@
+
+.box {
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    min-width: 400px;
+    min-height: 400px;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .box {
+
+        min-width: auto;
+        min-height: auto;
+    }
+}
